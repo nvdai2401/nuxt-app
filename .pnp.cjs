@@ -37,6 +37,7 @@ const RAW_RUNTIME_STATE =
           ["shadcn-nuxt", "npm:1.0.3"],\
           ["tailwind-merge", "npm:3.0.2"],\
           ["tailwindcss-animate", "virtual:1f0463a623b59e602c5e351b7ca9c50da07537ccc4c6ad36d3c8636d9d44ca44b72bf55fcaa3f8c38fc73c8a7b109fab1db6936b38d1efcb5ddf6eb81d977f69#npm:1.0.7"],\
+          ["vaul-vue", "virtual:1f0463a623b59e602c5e351b7ca9c50da07537ccc4c6ad36d3c8636d9d44ca44b72bf55fcaa3f8c38fc73c8a7b109fab1db6936b38d1efcb5ddf6eb81d977f69#npm:0.4.1"],\
           ["vue", "virtual:1f0463a623b59e602c5e351b7ca9c50da07537ccc4c6ad36d3c8636d9d44ca44b72bf55fcaa3f8c38fc73c8a7b109fab1db6936b38d1efcb5ddf6eb81d977f69#npm:3.5.13"],\
           ["vue-router", "virtual:1f0463a623b59e602c5e351b7ca9c50da07537ccc4c6ad36d3c8636d9d44ca44b72bf55fcaa3f8c38fc73c8a7b109fab1db6936b38d1efcb5ddf6eb81d977f69#npm:4.5.0"]\
         ],\
@@ -2191,6 +2192,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/web-bluetooth", [\
+      ["npm:0.0.20", {\
+        "packageLocation": "../../../.yarn/berry/cache/@types-web-bluetooth-npm-0.0.20-b0f3bdd4e5-10c0.zip/node_modules/@types/web-bluetooth/",\
+        "packageDependencies": [\
+          ["@types/web-bluetooth", "npm:0.0.20"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:0.0.21", {\
         "packageLocation": "../../../.yarn/berry/cache/@types-web-bluetooth-npm-0.0.21-5cda70c7da-10c0.zip/node_modules/@types/web-bluetooth/",\
         "packageDependencies": [\
@@ -2579,6 +2587,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@vueuse/core", [\
+      ["npm:10.11.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/@vueuse-core-npm-10.11.1-64166ea98a-10c0.zip/node_modules/@vueuse/core/",\
+        "packageDependencies": [\
+          ["@vueuse/core", "npm:10.11.1"],\
+          ["@types/web-bluetooth", "npm:0.0.20"],\
+          ["@vueuse/metadata", "npm:10.11.1"],\
+          ["@vueuse/shared", "npm:10.11.1"],\
+          ["vue-demi", "virtual:742043458c795138c1527862f67c108c898bf31bd285cf4b64bc1870f7c85d0c12ebd9fdf18168ff73aaca34c55bd91141f886022ea574c48dd7405eae5c48d1#npm:0.14.10"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:12.8.2", {\
         "packageLocation": "../../../.yarn/berry/cache/@vueuse-core-npm-12.8.2-6ad41fe1ee-10c0.zip/node_modules/@vueuse/core/",\
         "packageDependencies": [\
@@ -2592,6 +2611,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@vueuse/metadata", [\
+      ["npm:10.11.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/@vueuse-metadata-npm-10.11.1-b4decd9264-10c0.zip/node_modules/@vueuse/metadata/",\
+        "packageDependencies": [\
+          ["@vueuse/metadata", "npm:10.11.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:12.8.2", {\
         "packageLocation": "../../../.yarn/berry/cache/@vueuse-metadata-npm-12.8.2-a7be94d952-10c0.zip/node_modules/@vueuse/metadata/",\
         "packageDependencies": [\
@@ -2601,6 +2627,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@vueuse/shared", [\
+      ["npm:10.11.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/@vueuse-shared-npm-10.11.1-a99422e874-10c0.zip/node_modules/@vueuse/shared/",\
+        "packageDependencies": [\
+          ["@vueuse/shared", "npm:10.11.1"],\
+          ["vue-demi", "virtual:742043458c795138c1527862f67c108c898bf31bd285cf4b64bc1870f7c85d0c12ebd9fdf18168ff73aaca34c55bd91141f886022ea574c48dd7405eae5c48d1#npm:0.14.10"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:12.8.2", {\
         "packageLocation": "../../../.yarn/berry/cache/@vueuse-shared-npm-12.8.2-8290f2face-10c0.zip/node_modules/@vueuse/shared/",\
         "packageDependencies": [\
@@ -6465,6 +6499,7 @@ const RAW_RUNTIME_STATE =
           ["shadcn-nuxt", "npm:1.0.3"],\
           ["tailwind-merge", "npm:3.0.2"],\
           ["tailwindcss-animate", "virtual:1f0463a623b59e602c5e351b7ca9c50da07537ccc4c6ad36d3c8636d9d44ca44b72bf55fcaa3f8c38fc73c8a7b109fab1db6936b38d1efcb5ddf6eb81d977f69#npm:1.0.7"],\
+          ["vaul-vue", "virtual:1f0463a623b59e602c5e351b7ca9c50da07537ccc4c6ad36d3c8636d9d44ca44b72bf55fcaa3f8c38fc73c8a7b109fab1db6936b38d1efcb5ddf6eb81d977f69#npm:0.4.1"],\
           ["vue", "virtual:1f0463a623b59e602c5e351b7ca9c50da07537ccc4c6ad36d3c8636d9d44ca44b72bf55fcaa3f8c38fc73c8a7b109fab1db6936b38d1efcb5ddf6eb81d977f69#npm:3.5.13"],\
           ["vue-router", "virtual:1f0463a623b59e602c5e351b7ca9c50da07537ccc4c6ad36d3c8636d9d44ca44b72bf55fcaa3f8c38fc73c8a7b109fab1db6936b38d1efcb5ddf6eb81d977f69#npm:4.5.0"]\
         ],\
@@ -9399,6 +9434,33 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/vary-npm-1.1.2-b49f70ae63-10c0.zip/node_modules/vary/",\
         "packageDependencies": [\
           ["vary", "npm:1.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["vaul-vue", [\
+      ["npm:0.4.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/vaul-vue-npm-0.4.1-7cd9eb91d4-10c0.zip/node_modules/vaul-vue/",\
+        "packageDependencies": [\
+          ["vaul-vue", "npm:0.4.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:1f0463a623b59e602c5e351b7ca9c50da07537ccc4c6ad36d3c8636d9d44ca44b72bf55fcaa3f8c38fc73c8a7b109fab1db6936b38d1efcb5ddf6eb81d977f69#npm:0.4.1", {\
+        "packageLocation": "./.yarn/__virtual__/vaul-vue-virtual-482d25299e/4/.yarn/berry/cache/vaul-vue-npm-0.4.1-7cd9eb91d4-10c0.zip/node_modules/vaul-vue/",\
+        "packageDependencies": [\
+          ["vaul-vue", "virtual:1f0463a623b59e602c5e351b7ca9c50da07537ccc4c6ad36d3c8636d9d44ca44b72bf55fcaa3f8c38fc73c8a7b109fab1db6936b38d1efcb5ddf6eb81d977f69#npm:0.4.1"],\
+          ["@types/reka-ui", null],\
+          ["@types/vue", null],\
+          ["@vueuse/core", "npm:10.11.1"],\
+          ["reka-ui", "virtual:1f0463a623b59e602c5e351b7ca9c50da07537ccc4c6ad36d3c8636d9d44ca44b72bf55fcaa3f8c38fc73c8a7b109fab1db6936b38d1efcb5ddf6eb81d977f69#npm:2.1.1"],\
+          ["vue", "virtual:1f0463a623b59e602c5e351b7ca9c50da07537ccc4c6ad36d3c8636d9d44ca44b72bf55fcaa3f8c38fc73c8a7b109fab1db6936b38d1efcb5ddf6eb81d977f69#npm:3.5.13"]\
+        ],\
+        "packagePeers": [\
+          "@types/reka-ui",\
+          "@types/vue",\
+          "reka-ui",\
+          "vue"\
         ],\
         "linkType": "HARD"\
       }]\

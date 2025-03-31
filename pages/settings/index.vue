@@ -1,4 +1,15 @@
 <script setup lang="ts">
+import {
+  Drawer,
+  DrawerClose,
+  DrawerContent,
+  DrawerDescription,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerTrigger,
+} from "@/components/ui/drawer";
+
 // Fetch folders data
 const { data: folders, refresh } = await useFetch("/api/get-folders");
 
@@ -65,6 +76,22 @@ const cancelEdit = () => {
 <template>
   <div class="p-4">
     <h1 class="text-2xl font-bold mb-4">Settings</h1>
+
+    <Drawer>
+      <DrawerTrigger>Open</DrawerTrigger>
+      <DrawerContent>
+        <DrawerHeader>
+          <DrawerTitle>Are you absolutely sure?</DrawerTitle>
+          <DrawerDescription>This action cannot be undone.</DrawerDescription>
+        </DrawerHeader>
+        <DrawerFooter>
+          <Button>Submit</Button>
+          <DrawerClose>
+            <Button variant="outline"> Cancel </Button>
+          </DrawerClose>
+        </DrawerFooter>
+      </DrawerContent>
+    </Drawer>
 
     <!-- Folders list -->
     <div class="mb-6">
